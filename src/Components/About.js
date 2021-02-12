@@ -34,15 +34,17 @@ class About extends Component {
               <p className={'headings'} style={{'color': 'green'}}>Musically me !</p>
           </Header>
           <br/>
+          <video controls preload="auto" src={"/me/images/musicallyme.mp4"} style={{ maxHeight: '50vh', paddingRight:'40px' }}/>
           <video controls preload="auto" src={"/me/images/musicallyme1.mp4"} style={{ maxHeight: '50vh', paddingRight:'40px' }}/>
-          <video controls preload="auto" src={"/me/images/musicallyme.mp4"} style={{ maxHeight: '50vh' }}/>
+          <video controls preload="auto" src={"/me/images/girlslikeyou.mp4"} style={{ maxHeight: '50vh', paddingRight:'40px' }}/>
+          <br/>
+          <Header as='h5' style={{'color': 'green', textAlign: 'center'}}>A small glimpse into journey of a song, right from conception, recording to final production</Header>
           <br/><br/>
           <Container style={{'paddingLeft': '20px', 'paddingRight': '20px'}}>
             <Header as='h5' style={{'color': 'white', textAlign: 'center'}}>
             I remember being in touch with my musical side for as long as i can remember, my mother tells me that i actually used to move to music even when i was an year old kid. I remember the feeling of performing for the first time on stage, that nervousness and anxiety turned to a sense of calm and excitement as i kept on and since then i have been known as a musician where ever I go. I am used to performing for crowds, thats probably where i get my sense of connecting with people and creating an impact in their minds in whatever i do.
  I taught myself 5 different instruments including Guitar, Ukelele, Piano, Cajon and drums. I also can write, produce and engineer music. Currently i have an instagram channel where i post all my originals and covers.
             </Header><br/>
-            <Header as='h5' style={{'color': 'green', textAlign: 'center'}}>"Music is the soundtrack of your life."</Header>
          </Container>
       </Container>
       <div className="or-separator"/>
@@ -55,7 +57,7 @@ class About extends Component {
           <video controls preload="auto" src={"/me/images/50lbs.mp4"} style={{ maxHeight: '50vh'}}/>
             <br/><br/>
             <Header as='h5' style={{'color': 'white'}}>
-               I couldn't have better documented this very rewarding and life changing moment of my life into words, hence tried to capture it's glimpse in a small video.
+               I couldn't have better documented this very rewarding and life changing moment into words, hence tried to capture an year as a glimpse in a small video.
             </Header><br/>
             <Header as='h5' style={{'color': 'green', textAlign: 'center'}}>"I want to see what happens if I don't giveup"</Header>
          </Container>
