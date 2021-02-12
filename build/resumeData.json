@@ -1,0 +1,36 @@
+{
+  "main": {
+    "social":[
+      {
+        "name":"facebook",
+        "url":"http://facebook.com/dhruvbhl",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/dhruv-behl-28271b8a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/dhruvbhl/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/dhruvbehl/",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"youtube",
+        "url":"https://www.youtube.com/channel/UCGQ8NtYRbLfDSYjbCnP0-wQ",
+        "className":"fa fa-youtube"
+      },
+      {
+        "name":"soundcloud",
+        "url":"https://soundcloud.com/dhruvbhl",
+        "className":"fab fa-soundcloud"
+      }
+    ]
+  }
+}
