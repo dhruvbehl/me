@@ -38,7 +38,8 @@ class About extends Component {
           <video controls preload="auto" src={"/me/images/musicallyme1.mp4"} style={{ maxHeight: '50vh', paddingRight:'40px' }}/>
           <video controls preload="auto" src={"/me/images/girlslikeyou.mp4"} style={{ maxHeight: '50vh', paddingRight:'40px' }}/>
           <br/>
-          <Header as='h5' style={{'color': 'green', textAlign: 'center'}}>A small glimpse into journey of a song, right from conception, recording to final production</Header>
+          <Header as='h5' style={{'color': 'green', textAlign: 'center'}}>A small glimpse into journey of a song, right from <b style={{'color': 'white'}}>conception</b>, <b style={{'color': 'white'}}>recording</b> to <b style={{'color': 'white'}}>final production</b></Header><br/>
+          <Header as='h5' style={{'color': 'green', textAlign: 'center'}}>Sit back and enjoy!</Header>
           <br/><br/>
           <Container style={{'paddingLeft': '20px', 'paddingRight': '20px'}}>
             <Header as='h5' style={{'color': 'white', textAlign: 'center'}}>
