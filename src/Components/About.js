@@ -14,7 +14,7 @@ class About extends Component {
               <p className={'headings'} style={{'color': 'green'}}>Jack of all trades !</p>
           </Header>
           <br/>
-          <Image src={'../images/JackOfAllTrades.jpg'} style={{ 'maxHeight':'60vh'}}></Image>
+          <Image src={'/me/images/JackOfAllTrades.jpg'} style={{ 'maxHeight':'60vh'}}></Image>
           <br/><br/>
           <Container style={{'paddingLeft': '20px', 'paddingRight': '20px'}}>
             <Header as='h5' style={{'color': 'white'}}>
@@ -34,8 +34,8 @@ class About extends Component {
               <p className={'headings'} style={{'color': 'green'}}>Musically me !</p>
           </Header>
           <br/>
-          <video controls preload="auto" src={"../me/images/musicallyme1.mp4"} style={{ maxHeight: '50vh', paddingRight:'40px' }}/>
-          <video controls preload="auto" src={"../me/images/musicallyme.mp4"} style={{ maxHeight: '50vh' }}/>
+          <video controls preload="auto" src={"/me/images/musicallyme1.mp4"} style={{ maxHeight: '50vh', paddingRight:'40px' }}/>
+          <video controls preload="auto" src={"/me/images/musicallyme.mp4"} style={{ maxHeight: '50vh' }}/>
           <br/><br/>
           <Container style={{'paddingLeft': '20px', 'paddingRight': '20px'}}>
             <Header as='h5' style={{'color': 'white', textAlign: 'center'}}>
@@ -52,7 +52,7 @@ class About extends Component {
           </Header>
           <br/>
           <Container style={{'paddingLeft': '20px', 'paddingRight': '20px'}}>
-          <video controls preload="auto" src={"../me/images/50lbs.mp4"} style={{ maxHeight: '50vh'}}/>
+          <video controls preload="auto" src={"/me/images/50lbs.mp4"} style={{ maxHeight: '50vh'}}/>
             <br/><br/>
             <Header as='h5' style={{'color': 'white'}}>
                I couldn't have better documented this very rewarding and life changing moment of my life into words, hence tried to capture it's glimpse in a small video.
@@ -68,75 +68,75 @@ class About extends Component {
           <br/>
           <Container style={{'paddingLeft': '20px', 'paddingRight': '20px'}}>
             <a class="lightbox" href="#family">
-               <img alt='My Family' style={{minHeight: '30vh'}} src="../images/g1.jpg"/>
+               <img alt='My Family' style={{minHeight: '30vh'}} src="/me/images/g1.jpg"/>
             </a>
             <div class="lightbox-target" id="family">
-               <img alt='My Family' style={{minHeight: '30vh'}} src="../images/g1.jpg"/>
+               <img alt='My Family' style={{minHeight: '30vh'}} src="/me/images/g1.jpg"/>
                <a class="lightbox-close" href="#gallery"></a>
             </div>
 
             <a class="lightbox" href="#centurion">
-               <img alt='My first centurion ride' style={{minHeight: '30vh'}} src="../images/g2.jpg"/>
+               <img alt='My first centurion ride' style={{minHeight: '30vh'}} src="/me/images/g2.jpg"/>
             </a>
             <div class="lightbox-target" id="centurion">
                <figure></figure>
-                  <img alt='My first centurion ride' style={{minHeight: '30vh'}} src="../images/g2.jpg"/>
+                  <img alt='My first centurion ride' style={{minHeight: '30vh'}} src="/me/images/g2.jpg"/>
                <a class="lightbox-close" href="#gallery"></a>
             </div>
 
             <a class="lightbox" href="#udaipur">
-               <img alt='Udaipur, India' style={{minHeight: '30vh'}} src="../images/g3.jpg"/>
+               <img alt='Udaipur, India' style={{minHeight: '30vh'}} src="/me/images/g3.jpg"/>
             </a>
             <div class="lightbox-target" id="udaipur">
-               <img alt='Udaipur, India'  style={{minHeight: '30vh'}} src="../images/g3.jpg"/>
+               <img alt='Udaipur, India'  style={{minHeight: '30vh'}} src="/me/images/g3.jpg"/>
                <a class="lightbox-close" href="#gallery"></a>
             </div>
 
             <a class="lightbox" href="#thar">
-               <img alt='Thar dessert, India'  style={{minHeight: '30vh'}} src="../images/g4.jpg"/>
+               <img alt='Thar dessert, India'  style={{minHeight: '30vh'}} src="/me/images/g4.jpg"/>
             </a>
             <div class="lightbox-target" id="thar">
-               <img alt='Thar dessert, India' style={{minHeight: '30vh'}} src="../images/g4.jpg"/>
+               <img alt='Thar dessert, India' style={{minHeight: '30vh'}} src="/me/images/g4.jpg"/>
                <a class="lightbox-close" href="#gallery"></a>
             </div>
 
             <a class="lightbox" href="#himalayas1">
-               <img alt='The Himalayas, India' style={{minHeight: '30vh'}} src="../images/g5.jpg"/>
+               <img alt='The Himalayas, India' style={{minHeight: '30vh'}} src="/me/images/g5.jpg"/>
             </a>
             <div class="lightbox-target" id="himalayas1">
-               <img alt='The Himalayas, India' style={{minHeight: '30vh'}} src="../images/g5.jpg"/>
+               <img alt='The Himalayas, India' style={{minHeight: '30vh'}} src="/me/images/g5.jpg"/>
                <a class="lightbox-close" href="#gallery"></a>
             </div>
 
             <a class="lightbox" href="#himalayas2">
-               <img alt='The Himalayas, India' style={{minHeight: '30vh'}} src="../images/g6.jpg"/>
+               <img alt='The Himalayas, India' style={{minHeight: '30vh'}} src="/me/images/g6.jpg"/>
             </a>
             <div class="lightbox-target" id="himalayas2">
-               <img alt='The Himalayas, India' style={{minHeight: '30vh'}} src="../images/g6.jpg"/>
+               <img alt='The Himalayas, India' style={{minHeight: '30vh'}} src="/me/images/g6.jpg"/>
                <a class="lightbox-close" href="#gallery"></a>
             </div>
 
             <a class="lightbox" href="#leh">
-               <img  alt='Leh, India' style={{minHeight: '30vh'}} src="../images/g7.jpg"/>
+               <img  alt='Leh, India' style={{minHeight: '30vh'}} src="/me/images/g7.jpg"/>
             </a>
             <div class="lightbox-target" id="leh">
-               <img  alt='Leh, India' style={{minHeight: '30vh'}} src="../images/g7.jpg"/>
+               <img  alt='Leh, India' style={{minHeight: '30vh'}} src="/me/images/g7.jpg"/>
                <a class="lightbox-close" href="#gallery"></a>
             </div>
 
             <a class="lightbox" href="#khardungla">
-               <img alt='Bike trip to highest motorable road in the world' style={{minHeight: '30vh'}} src="../images/g8.jpg"/>
+               <img alt='Bike trip to highest motorable road in the world' style={{minHeight: '30vh'}} src="/me/images/g8.jpg"/>
             </a>
             <div class="lightbox-target" id="khardungla">
-               <img alt='Bike trip to highest motorable road in the world' style={{minHeight: '30vh'}} src="../images/g8.jpg"/>
+               <img alt='Bike trip to highest motorable road in the world' style={{minHeight: '30vh'}} src="/me/images/g8.jpg"/>
                <a class="lightbox-close" href="#gallery"></a>
             </div>
 
             <a class="lightbox" href="#magnetic">
-               <img alt='Magnetic road in Leh, India' style={{minHeight: '30vh'}} src="../images/g9.jpg"/>
+               <img alt='Magnetic road in Leh, India' style={{minHeight: '30vh'}} src="/me/images/g9.jpg"/>
             </a>
             <div class="lightbox-target" id="magnetic">
-               <img alt='Magnetic road in Leh, India' style={{minHeight: '30vh'}} src="../images/g9.jpg"/>
+               <img alt='Magnetic road in Leh, India' style={{minHeight: '30vh'}} src="/me/images/g9.jpg"/>
                <a class="lightbox-close" href="#gallery"></a>
             </div>
             <br/><br/>
