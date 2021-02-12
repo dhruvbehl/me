@@ -34,8 +34,8 @@ class About extends Component {
               <p className={'headings'} style={{'color': 'green'}}>Musically me !</p>
           </Header>
           <br/>
-          <video controls preload="auto" src={"../images/musicallyme1.mp4"} style={{ maxHeight: '50vh', paddingRight:'40px' }}/>
-          <video controls preload="auto" src={"../images/musicallyme.mp4"} style={{ maxHeight: '50vh' }}/>
+          <video controls preload="auto" src={"../me/images/musicallyme1.mp4"} style={{ maxHeight: '50vh', paddingRight:'40px' }}/>
+          <video controls preload="auto" src={"../me/images/musicallyme.mp4"} style={{ maxHeight: '50vh' }}/>
           <br/><br/>
           <Container style={{'paddingLeft': '20px', 'paddingRight': '20px'}}>
             <Header as='h5' style={{'color': 'white', textAlign: 'center'}}>
@@ -52,7 +52,7 @@ class About extends Component {
           </Header>
           <br/>
           <Container style={{'paddingLeft': '20px', 'paddingRight': '20px'}}>
-          <video controls preload="auto" src={"../images/50lbs.mp4"} style={{ maxHeight: '50vh'}}/>
+          <video controls preload="auto" src={"../me/images/50lbs.mp4"} style={{ maxHeight: '50vh'}}/>
             <br/><br/>
             <Header as='h5' style={{'color': 'white'}}>
                I couldn't have better documented this very rewarding and life changing moment of my life into words, hence tried to capture it's glimpse in a small video.
