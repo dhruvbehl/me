@@ -20,8 +20,8 @@ class About extends Component {
             <Header as='h5' style={{'color': 'white'}}>
             I was born in the <b style={{'color': 'green'}}>"City of Nawabs"</b> Lucknow, India,
             I come from a very middle class family background, with the aspiration to leave an impact into the world.
-            Since my childhood i have been an interactive person who likes telling stories so here are few stories of my life.
-            I have a big social circle and different people know me by my different talents i possess.
+            Since my childhood I have been an interactive person who likes telling stories so here are few stories of my life.
+            I have a big social circle and different people know me by my different talents I possess.
             Some know me as a <b style={{'color': 'green'}}>Musician</b>, few know me to be a <b style={{'color': 'green'}}>Fitness enthusiast</b>,
             there are some folks who like me for the <b style={{'color': 'green'}}>Foodie and Cook</b> I am and some know me to be a <b style={{'color': 'green'}}>Software Engineer</b>.
             </Header><br/>
@@ -43,8 +43,8 @@ class About extends Component {
           <br/><br/>
           <Container style={{'paddingLeft': '20px', 'paddingRight': '20px'}}>
             <Header as='h5' style={{'color': 'white', textAlign: 'center'}}>
-            I remember being in touch with my musical side for as long as i can remember, my mother tells me that i actually used to move to music even when i was an year old kid. I remember the feeling of performing for the first time on stage, that nervousness and anxiety turned to a sense of calm and excitement as i kept on and since then i have been known as a musician where ever I go. I am used to performing for crowds, thats probably where i get my sense of connecting with people and creating an impact in their minds in whatever i do.
- I taught myself 5 different instruments including Guitar, Ukelele, Piano, Cajon and drums. I also can write, produce and engineer music. Currently i have an instagram channel where i post all my originals and covers.
+            I remember being in touch with my musical side for as long as I can remember, my mother tells me that I actually used to move to music even when I was an year old kid. I remember the feeling of performing for the first time on stage, that nervousness and anxiety turned to a sense of calm and excitement as I kept on and since then I have been known as a musician where ever I go. I am used to performing for crowds, thats probably where I get my sense of connecting with people and creating an impact in their minds in whatever I do.
+ I taught myself 5 different instruments including Guitar, Ukelele, Piano, Cajon and drums. I also can write, produce and engineer music. Currently I have an instagram channel where I post all my originals and covers.
             </Header><br/>
          </Container>
       </Container>

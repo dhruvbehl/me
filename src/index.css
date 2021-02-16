@@ -332,3 +332,6 @@ body, html {
     z-index: 99999 !important;
     }
     
+    .lightbox-target {
+      max-width: 98vw;
+    }
