@@ -4,7 +4,6 @@ class Header extends Component {
   render() {
 
     if(this.props.data){
-      var name = this.props.data.name;
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url} target="_blank"><i className={network.className}></i></a></li>
       })
@@ -20,10 +19,10 @@ class Header extends Component {
 
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#about" style={{'color': 'grey'}}>Jack of All trades</a></li>
-	         <li><a className="smoothscroll" href="#music" style={{'color': 'grey'}}>Musically me</a></li>
-	         <li><a className="smoothscroll" href="#50lbs" style={{'color': 'grey'}}>50lbs </a></li>
-	         <li><a className="smoothscroll" href="#gallery" style={{'color': 'grey'}}>Gallery </a></li>
+            <li><a className="smoothscroll" href="#jack" >Jack of All trades</a></li>
+	         <li><a className="smoothscroll" href="#music" >Musically me</a></li>
+	         <li><a className="smoothscroll" href="#50lbs" >50lbs </a></li>
+	         <li><a className="smoothscroll" href="#gallery" >Gallery </a></li>
          </ul>
 
       </nav>

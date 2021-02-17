@@ -47,9 +47,18 @@
 		   var active_section;
 
 			active_section = $(this);
-			if (direction === "up") active_section = active_section.prev();
-
+			if (direction === "up") {
+            console.log(active_section);
+            if (active_section == "jack") {
+               active_section = document.getElementById("home")
+               console.log("home");
+            } else {
+               active_section = active_section.prev();
+               console.log("no-home");
+            }
+         }
 			var active_link = $('#nav-wrap a[href="#' + active_section.attr("id") + '"]');
+         console.log(active_link);
 
          navigation_links.parent().removeClass("current");
 			active_link.parent().addClass("current");

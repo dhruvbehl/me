@@ -9,7 +9,7 @@ class About extends Component {
 
     return (
       <div className={'navbar-color-bg'} id={'about'}>
-      <Container style={{ textAlign: 'center' }} id={'jack'}>
+      <section style={{ textAlign: 'center' }} id={'jack'}>
           <Header as='h1' inverted>
               <p className={'headings'} style={{'color': 'green'}}>Jack of all trades !</p>
           </Header>
@@ -27,9 +27,9 @@ class About extends Component {
             </Header><br/>
             <Header as='h5' style={{'color': 'green', textAlign: 'center'}}>"I am a Jack of all trades who wants to spend his life mastering skills one by one "</Header>
          </Container>
-      </Container>
-      <div className="or-separator"/>
-      <Container style={{ textAlign: 'center', paddingTop: '150px' }} id={'music'}>
+         <div className="or-separator"/>
+      </section>
+      <section style={{ textAlign: 'center', paddingTop: '150px' }} id={'music'}>
           <Header as='h1' inverted>
               <p className={'headings'} style={{'color': 'green'}}>Musically me !</p>
           </Header>
@@ -47,9 +47,9 @@ class About extends Component {
  I taught myself 5 different instruments including Guitar, Ukelele, Piano, Cajon and drums. I also can write, produce and engineer music. Currently I have an instagram channel where I post all my originals and covers.
             </Header><br/>
          </Container>
-      </Container>
-      <div className="or-separator"/>
-      <Container style={{ textAlign: 'center', paddingTop: '150px' }} id={'50lbs'}>
+         <div className="or-separator"/>
+      </section>
+      <section style={{ textAlign: 'center', paddingTop: '150px' }} id={'50lbs'}>
           <Header as='h1' inverted>
               <p className={'headings'} style={{'color': 'green'}}>My journey between 50 lbs !</p>
           </Header>
@@ -62,9 +62,9 @@ class About extends Component {
             </Header><br/>
             <Header as='h5' style={{'color': 'green', textAlign: 'center'}}>"I want to see what happens if I don't giveup"</Header>
          </Container>
-      </Container>
-      <div className="or-separator"/>
-      <Container style={{ textAlign: 'center', paddingTop: '150px' }} id={'gallery'}>
+         <div className="or-separator"/>
+      </section>
+      <section style={{ textAlign: 'center', paddingTop: '150px' }} id={'gallery'}>
           <Header as='h1' inverted>
               <p className={'headings'} style={{'color': 'green'}}>Gather memories not things !</p>
           </Header>
@@ -144,7 +144,8 @@ class About extends Component {
             </div>
             <br/><br/>
          </Container>
-      </Container>
+         <div className="or-separator"/>
+      </section>
   </div>
     );
   }
